@@ -61,6 +61,7 @@
     <Folder Include="dbo\Stored Procedures" />
     <Folder Include="dbo\Functions" />
     <Folder Include="dbo\Functions\Scalar Valued Function" />
+    <Folder Include="dbo\Post Publish Script" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\cinemas.sql" />
@@ -76,5 +77,8 @@
     <Build Include="dbo\Tables\reservations.sql" />
     <Build Include="dbo\Tables\schedules.sql" />
     <Build Include="dbo\Tables\users.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="dbo\Post Publish Script\Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>
